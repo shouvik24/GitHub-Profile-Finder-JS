@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Detective Practice</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/site.webmanifest" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="header">
+          <h2>DevDetective</h2>
+          <div class="mode">
+            <h3>DARK</h3>
+            <div class="iconMode">
+              <img src="assets/images/moon-icon.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="search">
+          <div class="searchImg">
+            <img class="imgSearch" src="assets/images/search-icon.svg" alt="" />
+          </div>
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Enter a GitHub Username"
+            required
+          />
+          <button>Search</button>
+        </div>
+        <div class="infoCard">
+          <div class="left">
+            <div class="profImage">
+              <img src="" id="profileImg" />
+            </div>
+          </div>
+          <div class="right">
+            <div class="profileHeader">
+              <div class="profileInfo">
+                <h1 id="userName"></h1>
+                <a href="" id="getLink" target="_blank"></a>
+                <h2 id="joinDate"></h2>
+              </div>
+            </div>
+            <div id="description"></div>
+            <div class="numbers">
+              <div class="repos">
+                <p id="repos"></p>
+                <p id="reposNumber"></p>
+              </div>
+              <div class="Followers">
+                <p id="Followers"></p>
+                <p id="FollowersNumber"></p>
+              </div>
+              <div class="Following">
+                <p id="Following"></p>
+                <p id="FollowingNumber"></p>
+              </div>
+            </div>
+            <div class="socials">
+              <div class="location">
+                <img src="./assets/images/location-icon.svg" />
+                <p id="locationShow"></p>
+              </div>
+              <div class="websiteLink">
+                <img src="./assets/images/website-icon.svg" />
+                <p id="websiteLink"></p>
+              </div>
+              <div class="twitter">
+                <img src="./assets/images/twitter-icon.svg" />
+                <p id="twitter"></p>
+              </div>
+              <div class="company">
+                <img src="./assets//images/company-icon.svg" />
+                <p id="company"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>

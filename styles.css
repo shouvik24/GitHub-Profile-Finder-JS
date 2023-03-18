@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.mode {
+  display: flex;
+  gap: 8px;
+}
+.search {
+  margin-top: 8px;
+  display: flex;
+  gap: 2px;
+  width: 100%;
+  /* background-color: wheat; */
+}
+input {
+  width: 100%;
+}
+.searchImg {
+  margin-right: 4px;
+  vertical-align: baseline;
+}
+
+.infoCard {
+  display: flex;
+  margin-top: 8px;
+  /* background-color: wheat; */
+}
+
+.profileHeader {
+  display: flex;
+}
+
+#profileImg {
+  width: 140px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.profileInfo a h3 {
+  margin-top: 10px;
+}
+
+.profileInfo h2 {
+  margin-top: 4px;
+}
+
+#description {
+  margin-top: 18px;
+}
+
+.numbers {
+  display: flex;
+  margin-top: 16px;
+  gap: 24px;
+}
+.socials {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.location,
+.websiteLink,
+.twitter,
+.company {
+  display: none;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.icon-active {
+  display: flex;
+}
